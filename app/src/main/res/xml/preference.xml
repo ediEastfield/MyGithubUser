@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/time_setting"
+        android:summaryOff="@string/alarm_off"
+        android:summaryOn="@string/alarm_on"
+        android:title="@string/reminder"
+        app:icon="@drawable/ic_notifications_active_black"/>
+
+</PreferenceScreen>
