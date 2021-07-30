@@ -11,8 +11,9 @@ import com.dicoding.mygithubuser.favorite.FavoriteFragment
 import com.dicoding.mygithubuser.home.HomeFragment
 import com.dicoding.mygithubuser.setting.SettingPreferenceFragment
 import com.google.android.material.navigation.NavigationView
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private lateinit var binding: ActivityMainBinding
